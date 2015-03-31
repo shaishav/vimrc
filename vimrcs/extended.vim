@@ -14,7 +14,7 @@ colorscheme peaksea
 
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Menlo:h15
+    set gfn=Menlo:h11, Source\ Code\ Pro:h12,Menlo:h12
 elseif has("win16") || has("win32")
     set gfn=Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("linux")
